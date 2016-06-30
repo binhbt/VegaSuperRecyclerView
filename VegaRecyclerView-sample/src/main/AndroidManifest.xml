@@ -1,0 +1,30 @@
+<manifest
+    package="com.malinskiy.superrecyclerview.sample"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".VegaListVerticalActivity"/>
+        <activity android:name=".VegaListHorizontalActivity"/>
+        <activity android:name=".VegaGridVerticalActivity"/>
+        <activity android:name=".VegaGridHorizontalActivity"/>
+        <activity android:name=".VegaStaggedVerticalActivity"/>
+        <activity android:name=".VegaStaggedHorizontalActivity"/>
+        <activity android:name=".VegaSwipeActivity"/>
+        <activity android:name=".VegaHeaderAdapterActivity"/>
+        <activity android:name=".sectioned.HomeActivity"/>
+    </application>
+
+</manifest>
